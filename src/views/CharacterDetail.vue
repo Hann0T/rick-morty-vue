@@ -14,7 +14,7 @@
     </div>
     <router-link
       to="/"
-      class="top-5 relative left-2/4 translate-x-2/4 rounded-md px-4 py-2 text-lg text-white bg-sky-500"
+      class="top-5 relative left-2/4 translate-x-2/4 rounded-md px-4 py-2 text-lg text-white bg-cyan-500"
     >
       Back
     </router-link>

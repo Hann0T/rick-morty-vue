@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-gray-800">
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 mx-auto lg:w-3/4">
-      <CharacterCard v-for="char in data.results" :key="char.id" :character="char" />
+      <character-card v-for="char in data.results" :key="char.id" :character="char" />
     </div>
   </div>
 </template>
@@ -13,6 +13,7 @@ import CharacterCard from "@/components/CharacterCard";
 export default {
   name: "Home",
   components: { CharacterCard },
+
   setup() {
     const data = ref([]);
 
